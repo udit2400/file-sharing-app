@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import { app } from '../../../firebaseConfig';
 import { doc, getFirestore, getDoc} from 'firebase/firestore';
-import FileItem from '';
+import FileItem from './_components/FileItem';
 
 function FileView({params}) {
     const db = getFirestore(app);
